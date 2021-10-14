@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": " Smashed Avo With Quinoa & Sauteed Greens",
+        "price": 13.99,
+        "img": "https://www.foodmatters.com/media/uploads/images/recipes/breakfast-smashed-avo-quinoa.png",
+        "description": "lorem emsum something about daet"
+    },
+    {
+        "id": 2,
+        "name": " Simple Poached Egg On Toast",
+        "price": 9.99,
+        "img": "https://www.foodmatters.com/media/uploads/images/recipes/poached-egg-toast-3.jpg",
+        "description": "lorem emsum something about daet"
+    },
+    {
+        "id": 3,
+        "name": " Maple Cinnamon Yogurt With Crushed Walnuts And Cacao",
+        "price": 9.99,
+        "img": "https://www.foodmatters.com/media/uploads/images/recipes/one-min-breakfast.jpg",
+        "description": "lorem emsum something about daet"
+    },
+    {
+        "id": 4,
+        "name": " Flax Blueberry Vanilla Overnight Oats",
+        "price": 9.99,
+        "img": "https://www.foodmatters.com/media/uploads/images/recipes/overnight-oats-61.jpg",
+        "description": "lorem emsum something about daet"
+    },
+    {
+        "id": 5,
+        "name": " 2-Ingredient Pancakes",
+        "price": 9.99,
+        "img": "https://www.foodmatters.com/media/uploads/images/recipes/quick-and-easy-breakfast-header.jpg",
+        "description": "lorem emsum something about daet"
+    }
+]

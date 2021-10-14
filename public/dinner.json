@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": " Beer Batter Fish Made Great",
+        "price": 39.99,
+        "img": "https://i.ibb.co/8b37JdG/dinner1.png",
+        "description": "lorem emsum something about daet"
+    },
+    {
+        "id": 2,
+        "name": " Simple New England Fried Fish",
+        "price": 29.99,
+        "img": "https://i.ibb.co/F605DcZ/dinner2.png",
+        "description": "lorem emsum something about daet"
+    },
+    {
+        "id": 3,
+        "name": " Chicken Fritters",
+        "price": 59.99,
+        "img": "https://i.ibb.co/DLggXnQ/dinner3.png",
+        "description": "lorem emsum something about daet"
+    },
+    {
+        "id": 4,
+        "name": " Easter Egg Dipper Treat",
+        "price": 59.99,
+        "img": "https://i.ibb.co/Ssbg1Jz/dinner4.png",
+        "description": "lorem emsum something about daet"
+    },
+    {
+        "id": 5,
+        "name": " Marinated Fried Fish",
+        "price": 59.99,
+        "img": "https://i.ibb.co/2SRKT28/dinner5.png",
+        "description": "lorem emsum something about daet"
+    },
+    {
+        "id": 6,
+        "name": " Marinated Fried Fish",
+        "price": 59.99,
+        "img": "https://i.ibb.co/2SRKT28/dinner6.png",
+        "description": "lorem emsum something about daet"
+    }
+]

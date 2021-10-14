@@ -1,0 +1,12 @@
+.menu{
+    display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin: 10px 700px;
+   text-decoration: none;
+}
+.service-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}

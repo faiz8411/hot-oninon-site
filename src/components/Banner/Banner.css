@@ -1,0 +1,17 @@
+.banner{
+    background-image: url('https://i.ibb.co/HDhD3L4/bannerbackground.png');
+    width: 100%;
+    height: 500px;
+}
+.search-input{
+
+    display: inline;
+    text-align: center;
+    justify-content: center;
+    
+
+
+}
+.input{
+    margin-bottom: 200px;
+}

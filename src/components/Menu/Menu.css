@@ -1,0 +1,11 @@
+.menu-container{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   margin: 10px 700px;
+
+    
+}
+.menu-container h4:hover{
+color: red;
+}
