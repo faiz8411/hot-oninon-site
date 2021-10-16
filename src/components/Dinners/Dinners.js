@@ -4,12 +4,14 @@ import Dinner from '../Dinner/Dinner';
 import './Dinners.css'
 
 const Dinners = () => {
+
     const [dinners, setDinners] = useState([])
     useEffect(() => {
         fetch('dinner.json')
             .then(res => res.json())
             .then(data => setDinners(data))
     }, [])
+
     return (
         <div>
             <h3>our dinner menu</h3>

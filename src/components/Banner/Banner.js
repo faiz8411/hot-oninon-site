@@ -6,7 +6,7 @@ const Banner = () => {
         <div className="banner">
 
             <div className="pb-5">
-                <h2>you food our desire</h2>
+                <h2>enjoy your food</h2>
                 <input className="input " type="text" />
                 <button className="btn btn-warning">search</button>
 
