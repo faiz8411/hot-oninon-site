@@ -5,12 +5,24 @@ const Banner = () => {
     return (
         <div className="banner">
 
-            <div className="pb-5">
-                <h2>enjoy your food</h2>
+
+
+            <h2 className="">food your wish to Eat</h2>
+
+
+            <div className="input">
+
                 <input className="input " type="text" />
-                <button className="btn btn-warning">search</button>
+                <input className="btn-register" type="submit" value="search" />
+            </div>
+            <div>
 
             </div>
+
+
+
+
+
 
         </div >
     );

@@ -2,7 +2,9 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Breakfast from './components/Breakfast/Breakfast';
+import BreakfastDetails from './components/BreakFastDetails/BreakfastDetails';
 import Breakfasts from './components/Breakfasts/Breakfasts';
+import DinnerDetails from './components/DinnerDetails/DinnerDetails';
 import Dinners from './components/Dinners/Dinners';
 import FoodDetails from './components/FoodDetails/FoodDetails';
 import Header from './components/Header/Header';
@@ -29,6 +31,9 @@ function App() {
             <PrivateRoute path="/food/:serviceId">
               <FoodDetails></FoodDetails>
             </PrivateRoute>
+            <PrivateRoute path="/break/:breakId">
+              <BreakfastDetails></BreakfastDetails>
+            </PrivateRoute>
             <Route path="/breakfast">
               <Breakfasts></Breakfasts>
             </Route>
@@ -37,6 +42,9 @@ function App() {
             </Route>
             <Route path="/dinner">
               <Dinners></Dinners>
+            </Route>
+            <Route path="/night/:dinnerId">
+              <DinnerDetails></DinnerDetails>
             </Route>
             <Route path="/login">
               <Login></Login>

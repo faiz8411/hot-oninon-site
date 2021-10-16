@@ -1,3 +1,32 @@
 .header-container{
-    background-image: url('https://i.ibb.co/HDhD3L4/bannerbackground.png');
+    width: 100px;
+   
+}
+
+.banne{
+    
+    width: 90%;
+    height: 50%;
+    
+}
+.btn{
+    margin-left: 600px;
+    
+}
+.btn-register{
+    background-color: rgb(255, 0, 200);
+    padding: 5px 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+@media only screen and(max-width:688px)  {
+    .header-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media only screen and (min-width:689) and(max-width:991px) {
+    .header-container{
+        grid-template-columns: repeat(2,1fr);
+    }
 }

@@ -1,17 +1,25 @@
 .banner{
     background-image: url('https://i.ibb.co/HDhD3L4/bannerbackground.png');
-    width: 100%;
-    height: 500px;
-}
-.search-input{
-
-    display: inline;
-    text-align: center;
-    justify-content: center;
-    
-
-
+    width: 1005;
+    height: 400px;
 }
 .input{
-    margin-bottom: 200px;
+    margin-top: 100px;
+}
+
+.inputword{
+    margin-top: 90px;
+}
+
+
+
+@media only screen and(max-width:688px)  {
+    .banner{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media only screen and (min-width:689) and(max-width:991px) {
+    .banner{
+        grid-template-columns: repeat(2,1fr);
+    }
 }

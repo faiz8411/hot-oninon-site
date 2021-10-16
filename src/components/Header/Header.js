@@ -10,37 +10,42 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     const { user, logOut } = useAuth()
     return (
-        <div>
 
 
+        <div className="mt-2 d-flex header-container">
 
-            <>
+            <div>
+                <img className="w-10" src={logo1} alt="" />
+            </div>
 
-                <div className="header-container" sticky="top">
-                    <Navbar bg="dark" variant="dark" collapseOnSelect expand="lg" >
-                        <Container>
-                            <Navbar.Brand href="#home"><img className="img-fluid" src={logo1} alt="" /></Navbar.Brand>
-                            <Nav className="me-auto">
-                                <Nav.Link href="#home">Home</Nav.Link>
-                                <Nav.Link href="#features">Breakfast</Nav.Link>
-                                <Nav.Link href="#pricing">Launch</Nav.Link>
-                                <Nav.Link href="#pricing">Dinner</Nav.Link>
-                                {user?.email &&
-                                    <span className="text-white mt-2">Hello {user.displayName}</span>}
-                                {
-                                    user.email ?
-                                        <button onClick={logOut}>logout</button> :
-                                        <Nav.Link href="/login">Login</Nav.Link>
-                                }
-                            </Nav>
-                        </Container>
-                    </Navbar>
+            <div className="btn row">
+                <div className="col-md-6 d-flex">
+                    {user?.email &&
+                        <span className="text-danger">Hello {user.displayName}</span>}
+                    {
+                        user.email ?
+                            <button className=" btn-register" onClick={logOut}>logout</button> :
+                            <Link href="/">Login</Link>
+
+                    }
+
+
+                    <button className="mx-5 btn-register">Register</button>
                 </div>
 
-            </>
-            <Banner></Banner>
+
+            </div>
 
         </div>
+
+
+
+
+
+
+
+
+
     );
 };
 
